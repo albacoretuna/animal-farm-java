@@ -2,30 +2,30 @@ package animalFarm;
 
 public class Animal implements Introduction {
 	
-   protected boolean isExtincted;
-   protected boolean isDomestic;
-   protected boolean isVegeterian;
+   protected String isExtincted;
+   protected String isDomestic;
+   protected String isVegeterian;
    protected String  latinName;
    
    protected Animal() {
    }
 
-   protected Animal(boolean isExtincted, boolean isDomestic, boolean isVegeterian, String latinName) {
+   protected Animal(String isExtincted, String isDomestic, String isVegeterian, String latinName) {
        this.isExtincted = isExtincted;
        this.isDomestic = isDomestic;
        this.isVegeterian = isVegeterian;
        this.latinName = latinName;
    }
 
-   public boolean getIsExtincted() {
+   public String getIsExtincted() {
        return isExtincted;
    }
 
-   public boolean getIsDomestic() {
+   public String getIsDomestic() {
        return isDomestic;
    }
 
-   public boolean getIsVegeterian() {
+   public String getIsVegeterian() {
        return isVegeterian;
    }
 

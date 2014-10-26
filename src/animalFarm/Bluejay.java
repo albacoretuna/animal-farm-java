@@ -1,5 +1,7 @@
 package animalFarm;
 
+import javax.swing.JOptionPane;
+
 public class Bluejay extends Bird {
 
 	
@@ -8,7 +10,7 @@ public class Bluejay extends Bird {
 	public Bluejay() {
 	}
 	
-	public Bluejay(int age, int wingsAndHandsTotal, boolean isExtincted, boolean isDomestic, boolean isVegeterian, String latinName) {
+	public Bluejay(int age, int wingsAndHandsTotal, String isExtincted, String isDomestic, String isVegeterian, String latinName) {
 		super(wingsAndHandsTotal, isExtincted, isDomestic, isVegeterian, latinName);
 		this.age = age; 
 	}
@@ -26,8 +28,8 @@ public class Bluejay extends Bird {
                   + "\n Is extinct: "   + String.valueOf(isExtincted) 
                   + "\n Age: " + age + " Years "
                   + "\n Number of Legs and Wings: " + wingsAndHandsTotal
-        		  + "\n Is Domestic: " + String.valueOf(isDomestic);
-        System.out.println(message);
+        		  + "\n Is Domestic: " + String.valueOf(isDomestic) + "\n \n" ;
+        JOptionPane.showMessageDialog(null, message);
     }
 	
 }

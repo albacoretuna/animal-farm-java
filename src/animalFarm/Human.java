@@ -2,14 +2,15 @@ package animalFarm;
 
 import javax.swing.JOptionPane;
 
-public class Dog extends Mamal{
+public class Human extends Mamal {
+
 	
 	private int age;
 	
-	public Dog() {
+	public Human() {
 	}
 	
-	public Dog(int age, int legsAndHandsTotal, String isExtincted, String isDomestic, String isVegeterian, String latinName) {
+	public Human(int age, int legsAndHandsTotal, String isExtincted, String isDomestic, String isVegeterian, String latinName) {
 		super(legsAndHandsTotal, isExtincted, isDomestic, isVegeterian, latinName);
 		this.age = age; 
 	}
@@ -22,17 +23,15 @@ public class Dog extends Mamal{
     public void introduce() {
     	
     	
-        String message = "Here I introduce a cute dog: \n "
+        String message = "Here I introduce a Cool Friend of Mine: \n "
         		  + "Name: " + latinName
-                  + "\n Is extinct: "   + isExtincted 
+                  + "\n Is extinct: "   + String.valueOf(isExtincted) 
                   + "\n Age: " + age 
                   + "\n Number of Legs and Hands: " + legsAndHandsTotal
-        		  + "\n Is Domestic: " + isDomestic;
+        		  + "\n Is Domestic: " + String.valueOf(isDomestic);
         JOptionPane.showMessageDialog(null, message);
-    }
-	
+    
+}
 }
 
-
-
-
+/* latinName / isExtincted / age / legsAndHandsTotal / */

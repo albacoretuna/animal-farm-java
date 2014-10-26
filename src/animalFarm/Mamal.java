@@ -9,7 +9,7 @@ public abstract class Mamal extends Animal{
 	public Mamal() {
 	}
 	
-	public Mamal(int legsAndHandsTotal, boolean isExtincted, boolean isDomestic, boolean isVegeterian, String latinName) {
+	public Mamal(int legsAndHandsTotal, String isExtincted, String isDomestic, String isVegeterian, String latinName) {
 		super(isExtincted, isDomestic, isVegeterian, latinName);
 		this.legsAndHandsTotal = legsAndHandsTotal;
 	}

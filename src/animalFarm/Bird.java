@@ -8,7 +8,7 @@ public abstract class Bird extends Animal {
 	public Bird() {
 	}
 	
-	public Bird(int wingsAndHandsTotal, boolean isExtincted, boolean isDomestic, boolean isVegeterian, String latinName) {
+	public Bird(int wingsAndHandsTotal, String isExtincted, String isDomestic, String isVegeterian, String latinName) {
 		super(isExtincted, isDomestic, isVegeterian, latinName);
 		this.wingsAndHandsTotal = wingsAndHandsTotal;
 	}
