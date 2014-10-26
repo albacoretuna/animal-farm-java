@@ -20,11 +20,11 @@ public class Dog extends Mamal{
     public void introduce() {
     	
     	
-        String message = "This is a Dog with this properties: \n "
-        		  + "Breed Latin Name: " + latinName
+        String message = "Here I introduce a cute dog: \n "
+        		  + "Name: " + latinName
                   + "\n Is extinct: "   + String.valueOf(isExtincted) 
                   + "\n Age: " + age 
-                  + "\n Number of Legs and Hands " + legsAndHandsTotal
+                  + "\n Number of Legs and Hands: " + legsAndHandsTotal
         		  + "\n Is Domestic: " + String.valueOf(isDomestic);
         System.out.println(message);
     }
@@ -32,34 +32,5 @@ public class Dog extends Mamal{
 }
 
 
-/*
-package fifth;
-
-public class LaserPrinter extends Printer {
-    
-    private int quality;    //  Dots per inch
-
-    public LaserPrinter() {
-    }
-
-    public LaserPrinter(int quality, int speed, 
-               String serialnumber, String manufacturer, String model, double price) {
-        super(speed, serialnumber, manufacturer, model, price);
-        this.quality = quality;
-    }
-
-    public int getQuality() {
-        return quality;
-    }
-
-    @Override
-    public void report() {
-        String message = "Just a laser printer: " + manufacturer + ": " + model 
-                                     + " with speed " + speed + " p/min. and quality " + quality + " dpi.";
-        System.out.println(message);
-    }
-    
-}
 
 
-*/

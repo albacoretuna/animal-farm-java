@@ -3,74 +3,91 @@
   associations="true" dependencies="false" nesting-relationships="true">  
   <package id="1" language="java" name="animalFarm" project="animalFarm" file="/animalFarm/src/animalFarm" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="48" width="100" x="41" y="37"/>    
+    <position height="48" width="100" x="42" y="37"/>    
     <display autosize="true" stereotype="true" accessors="true"/>  
   </package>  
-  <class id="2" language="java" name="animalFarm.Bird" project="animalFarm" file="/animalFarm/src/animalFarm/Bird.java" 
+  <class id="2" language="java" name="animalFarm.Dog" project="animalFarm" file="/animalFarm/src/animalFarm/Dog.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="79" width="85" x="563" y="37"/>    
+    <position height="151" width="233" x="181" y="509"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="animalFarm.Dog" project="animalFarm" file="/animalFarm/src/animalFarm/Dog.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="133" width="233" x="377" y="509"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
-      visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="4" language="java" name="animalFarm.Mamal" project="animalFarm" 
+  <class id="3" language="java" name="animalFarm.Mamal" project="animalFarm" 
     file="/animalFarm/src/animalFarm/Mamal.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="133" width="231" x="377" y="336"/>    
+    <position height="133" width="231" x="183" y="336"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="animalFarm.Reptile" project="animalFarm" 
+  <class id="4" language="java" name="animalFarm.Reptile" project="animalFarm" 
     file="/animalFarm/src/animalFarm/Reptile.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="79" width="85" x="181" y="37"/>    
+    <position height="79" width="85" x="182" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="6" language="java" name="animalFarm.Introduction" project="animalFarm" 
+  <interface id="5" language="java" name="animalFarm.Introduction" project="animalFarm" 
     file="/animalFarm/src/animalFarm/Introduction.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="79" width="101" x="236" y="336"/>    
+    <position height="79" width="101" x="42" y="336"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="7" language="java" name="animalFarm.Animal" project="animalFarm" 
+  <class id="6" language="java" name="animalFarm.Animal" project="animalFarm" 
     file="/animalFarm/src/animalFarm/Animal.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="259" width="217" x="306" y="37"/>    
+    <position height="259" width="217" x="307" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="8">    
-    <end type="SOURCE" refId="4"/>    
+  <class id="7" language="java" name="animalFarm.Bird" project="animalFarm" file="/animalFarm/src/animalFarm/Bird.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="133" width="218" x="454" y="336"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="animalFarm.Bluejay" project="animalFarm" 
+    file="/animalFarm/src/animalFarm/Bluejay.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="151" width="247" x="454" y="509"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="8"/>    
     <end type="TARGET" refId="7"/>  
   </generalization>  
-  <generalization id="9">    
+  <generalization id="10">    
     <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="TARGET" refId="6"/>  
   </generalization>  
-  <realization id="10">    
+  <generalization id="11">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="12">    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <realization id="13">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
   </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     accessors="true" visibility="true">    
