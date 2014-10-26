@@ -1,4 +1,4 @@
-package animalFarm;
+/*package animalFarm;
 import javax.swing.*;
 
 public class JOptionPaneMultiInput {
@@ -10,4 +10,4 @@ public class JOptionPaneMultiInput {
       }
 
    }
-}
+}*/

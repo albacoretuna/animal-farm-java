@@ -25,10 +25,10 @@ public class Human extends Mamal {
     	
         String message = "Here I introduce a Cool Friend of Mine: \n "
         		  + "Name: " + latinName
-                  + "\n Is extinct: "   + String.valueOf(isExtincted) 
+                  + "\n Is extinct: "   + isExtincted 
                   + "\n Age: " + age 
                   + "\n Number of Legs and Hands: " + legsAndHandsTotal
-        		  + "\n Is Domestic: " + String.valueOf(isDomestic);
+        		  + "\n Is Domestic: " + isDomestic;
         JOptionPane.showMessageDialog(null, message);
     
 }

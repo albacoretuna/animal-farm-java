@@ -25,10 +25,10 @@ public class Bluejay extends Bird {
     	
         String message = "Here I introduce a cute Bird: \n "
         		  + "Name: " + latinName
-                  + "\n Is extinct: "   + String.valueOf(isExtincted) 
+                  + "\n Is extinct: "   + isExtincted 
                   + "\n Age: " + age + " Years "
                   + "\n Number of Legs and Wings: " + wingsAndHandsTotal
-        		  + "\n Is Domestic: " + String.valueOf(isDomestic) + "\n \n" ;
+        		  + "\n Is Domestic: " + isDomestic + "\n \n" ;
         JOptionPane.showMessageDialog(null, message);
     }
 	
