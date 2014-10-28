@@ -1,3 +1,8 @@
+/* My Exercise for Java Programming Course 
+ * Student No. 1305909
+ */
+
+
 package animalFarm;
 
 import javax.swing.JOptionPane;

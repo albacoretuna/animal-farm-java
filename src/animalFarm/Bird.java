@@ -1,3 +1,7 @@
+/* My Exercise for Java Programming Course 
+ * Student No. 1305909
+ */
+
 package animalFarm;
 
 public abstract class Bird extends Animal {
